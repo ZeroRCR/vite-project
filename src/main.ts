@@ -1,5 +1,6 @@
 import './style.css';
+const algo = 'hola';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <h1>${5}</h1>
+  <h1>${algo}</h1>
 `;
